@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.autocomplete-suggestions { border: 1px solid #999; background: #fff; cursor: default; overflow: auto; }
+.autocomplete-suggestion {
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 8px 5px;
+  white-space: nowrap;
+}
+.autocomplete-selected { background: #f0f0f0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399ff; }
